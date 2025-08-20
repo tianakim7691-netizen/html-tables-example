@@ -1,0 +1,82 @@
+/* Universal Style Rules */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(238, 238, 238);
+}
+
+h2 {
+  padding: 10px 0;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #828282;
+}
+
+/* Table Styles */
+
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+}
+
+table {
+  border-radius: 10px; /* Rounded Corner thead */
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  border: 0px;
+}
+
+caption {
+  caption-side: bottom;
+  margin: 14px 0px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+table td,
+table th {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+
+/* Color Table Headers */
+
+table thead th {
+  color: #ffffff;
+  background: #0088ff;
+}
+
+
+
+/* Rounded Corner thead */
+thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* left line */
+tbody th,
+tfoot th {
+  color: #0088ff;
+  
+}

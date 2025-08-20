@@ -1,0 +1,77 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+  border: 5px solid #45617d;
+}
+
+h2 {
+  padding: 10px 0;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.table-wrapper {
+  margin: 10px 70px 70px;
+}
+
+/* table----------------------------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+caption {
+  caption-side: bottom;
+  margin: 14px 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #333;
+}
+
+/* empty cell*/
+table th.empty-cell {
+  visibility: hidden;
+  border: none;
+  background: transparent;
+}
+
+
+/* table style */
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #45617d; /* line */
+}
+
+/*Product A, B, C */
+thead th {
+  background-color: #a9c4ea;
+  font-weight: bold;
+}
+
+/* left line */
+tbody th,
+tfoot th {
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+/* odd color */
+tbody tr:nth-child(odd) {
+  background-color: #dbe8fb;
+}

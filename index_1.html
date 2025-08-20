@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main_1.css" />
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+    <h2 id="weeklyCourseSchedule">Product Comparison Chart</h2>
+    <div class="table-wrapper">
+        <table aria-labelledby="Product Comparison Chart">
+            <caption>Fig Comparison of the features between the products</caption>
+            <thead>
+                <tr>
+                    <th class="empty-cell"></th>
+                    <th id="product A" scope="col">Product A</th>
+                    <th id="product B" scope="col">Product B</th>
+                    <th id="product C" scope="col">Product C</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="-" scope="row">Durability</th>
+                    <td headers="product A">10/10</td>
+                    <td headers="product B">5/10</td>
+                    <td headers="product C">7/10</td>
+                </tr>
+                <tr>
+                    <th id="-" scope="row">Design</th>
+                    <td headers="product A">3/10</td>
+                    <td headers="product B">8/10</td>
+                    <td headers="product C">7/10</td>
+                </tr>
+                <tr>
+                    <th id="-" scope="row">Usability</th>
+                    <td headers="product A">7/10</td>
+                    <td headers="product B">10/10</td>
+                    <td headers="product C">5/10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="-" scope="row">Price</th>
+                    <td headers="product A">9/10</td>
+                    <td headers="product B">7/10</td>
+                    <td headers="product C">3/10</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+
+</html>
